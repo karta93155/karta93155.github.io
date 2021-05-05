@@ -1,0 +1,114 @@
+body{ background-color: rgba(255, 241, 222, 0.62);
+}
+
+h2{
+    text-align: center;
+}
+
+h1{    border-style: double;
+    text-align: center;
+    color: #a45903;
+    background-color: rgba(247, 237, 186, 0.11);
+    border-radius: 5px;
+    font-family: HanziPen SC;
+    font-weight: 900;
+}
+h4{
+    text-align: center;
+    
+}
+p{text-align: left;}
+
+.body{font-family: HanziPen SC;
+    color: rgb(214, 147, 58);
+    line-height: 2;
+    margin-bottom:50px;
+}
+
+.bgp{background-image: url(./圖片\ 1.png);
+
+}
+
+.sword{font-size:  18px;
+    font-weight: 100;
+    text-align: left;
+}
+
+.mword{font-size: 25px;
+    color: #7e5849;
+    font-weight: 600;
+}
+
+.bword{font-size:  30px;
+}
+
+.picture{width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50%;
+    background-image: url(./IMG_3751.JPG);
+    background-size: cover;
+    background-position-x: right;
+    margin: 10px;
+    float: left;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.md{
+    width:200px;
+    height:200px;
+}
+
+#data{
+    float: left;
+        height: 150px;
+        width: 250px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 30%;
+
+}
+
+#knowledge{
+    float: left;
+    height: 150px;
+    width: 250px;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-bottom: 30%;
+}
+
+#activity{
+    float:left;
+    height: 150px;
+    width: 250px;
+    margin-left: 7%;
+    margin-right: 10%;
+    margin-bottom: 30%;
+}
+
+#intro{
+    width: 1000px;
+    margin-top: 1.2%;
+    margin-left: 8%;
+}
+
+#introduction{
+    margin-left: 10%;
+
+}
+
+#weather{
+    width: 300px;
+    height: 300px;
+    border-width: 1px;
+    background-size: cover;
+    background-position-x: right;
+    margin: 10px;
+    
+}

@@ -1,0 +1,40 @@
+img {
+    height: 300px;
+    border-radius: 50%;
+}
+
+.dog {
+    height: 300px;
+    width: 300px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50%;
+    background-image: url(./dog-cat.jpg);
+    background-size: cover;
+}
+.cat{
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50%;
+    background-image: url(./dog-cat.jpg);
+    background-size: cover;
+    background-position-x: right;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+.sd{
+    width:100px;
+    height:100px;
+}
+.md{
+    width:200px;
+    height:200px;
+}
+.ld{
+    width:300px;
+    height:300px;
+}
