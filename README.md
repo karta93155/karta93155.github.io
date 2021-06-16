@@ -4,5 +4,5 @@
 2. 另外也使用到class以及id的功能，確實可以更快地將CSS套入到各個想要的地方，覺得獲益良多。
 
 # 期中報告 JavaScript 函式庫：Leaflet 套件
-網址：https://youtu.be/NR_y__-bThk
+網址：https://youtu.be/ajDPyHb5ibk
 ＊ 講解 Leaflet 套件功能
