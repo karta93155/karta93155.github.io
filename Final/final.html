@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Final</title>
+  <link rel="stylesheet" href="./final.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js" integrity="sha512-2fk3Q4NXPYAqIha0glLZ2nluueK43aNoxvijPf53+DgL7UW9mkN+uXc1aEmnZdkkZVvtJZltpRt+JqTWc3TS3Q==" crossorigin=""></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/ScrollTrigger.min.js" integrity="sha512-jNJOCd1PIjJoUa1XTDKaPdBLNUe4OJTrltKG+70O5ghYZ943nTRGIzjObwC2JtSm1fG7T06GbUApR2eirIU/jA==" crossorigin=""></script>
+  <script src="./final.js"></script>
+</head>
+<body>
+  
+  <script src="./final.js"></script>
+  <svg class="box" viewbox="-50 -50 100 100">
+    <circle cx="0" cy="0" r="20"></circle>
+  </svg>
+  <div class="information">
+    <h3>台大舒適度天氣資訊</h3>
+    <p>此網站可提供即時天氣資訊以及各式環境參數指標，讓民眾參考。並且可以自行留下屬於自己的留言與塗鴉以抒發心情。</p>
+  </div>
+  <div class="mountain">
+    <div class="mountain m_2"></div>
+    <div class="mountain m_3"></div>
+    <div class="mountain m_4"></div>
+    <div class="mountain m_5"></div>
+  </div>
+  <div class="choosebox">
+    <label>
+      <input id="switch_daybox" type="checkbox"/>
+      <div class="text">天氣資訊</div>
+      <hr/>
+      <div class="paper">此處可了解台灣大學的一週天氣資訊，未來可透過中央氣象局的資料嫁接，最後得到即時的天氣資料。</div>
+      <div class="daybox">
+        <label>
+          <input id="switch_night" type="checkbox"/>
+          <div class="top">
+            <div class="star">
+              <div class="star star2"></div>
+              <div class="star star3"></div>
+              <div class="star star4"></div>
+              <div class="star star5"></div>
+            </div>
+            <div class="text_area">
+              <div class="temperature">23°C</div>
+              <div class="infos">
+                <div class="address">國立臺灣大學</div>
+                <div class="time">星期二 下午3:12</div>
+              </div>
+            </div>
+            <div class="cloud">
+              <div class="rain"></div>
+              <div class="rain rain2"></div>
+              <div class="rain rain3"></div>
+            </div>
+            <div class="grass"></div>
+            <div class="text_box">今天心情如何？</div>
+          </div>
+          <div class="bottom">
+            <div class="dayweather">
+              <h3>MON</h3>
+              <svg viewbox="-50 -50 100 100">
+                <circle class="sun" cx="0" cy="0" r="22"></circle>
+              </svg>
+            </div>
+            <div class="dayweather">
+              <h3>TUE</h3>
+              <svg viewbox="-50 -50 100 100">
+                <circle class="sun" cx="0" cy="0" r="22"></circle>
+              </svg>
+            </div>
+            <div class="dayweather">
+              <h3>WED</h3>
+              <svg viewbox="-50 -50 100 100">
+                <circle class="sun" cx="0" cy="0" r="22"></circle>
+                <circle class="cloud" cx="-30" cy="30" r="20"></circle>
+                <circle class="cloud" cx="-15" cy="30" r="20"></circle>
+                <circle class="cloud" cx="0" cy="30" r="20"></circle>
+                <circle class="cloud" cx="-25" cy="10" r="15"></circle>
+                <circle class="cloud" cx="-7" cy="15" r="15"></circle>
+              </svg>
+            </div>
+            <div class="dayweather">
+              <h3>THR</h3>
+              <svg viewbox="-63 -25 100 100">
+                <line class="rain" x1="-25" y1="15" x2="-25" y2="35"></line>
+                <line class="rain" x1="-14" y1="5" x2="-14" y2="25"></line>
+                <line class="rain" x1="-5" y1="20" x2="-5" y2="45"></line>
+                <circle class="cloud" cx="-30" cy="30" r="20"></circle>
+                <circle class="cloud" cx="-15" cy="30" r="20"></circle>
+                <circle class="cloud" cx="0" cy="30" r="20"></circle>
+                <circle class="cloud" cx="-25" cy="10" r="15"></circle>
+                <circle class="cloud" cx="-7" cy="15" r="15"></circle>
+              </svg>
+            </div>
+            <div class="dayweather">
+              <h3>FRI</h3>
+              <svg viewbox="-63 -25 100 100">
+                <circle class="cloud" cx="-30" cy="30" r="20"></circle>
+                <circle class="cloud" cx="-15" cy="30" r="20"></circle>
+                <circle class="cloud" cx="0" cy="30" r="20"></circle>
+                <circle class="cloud" cx="-25" cy="10" r="15"></circle>
+                <circle class="cloud" cx="-7" cy="15" r="15"></circle>
+              </svg>
+            </div>
+            <div class="dayweather">
+              <h3>SAT</h3>
+              <svg viewbox="-50 -50 100 100">
+                <circle class="sun" cx="0" cy="0" r="22"></circle>
+              </svg>
+            </div>
+            <div class="dayweather">
+              <h3>SUN</h3>
+              <svg viewbox="-50 -50 100 100">
+                <circle class="sun" cx="0" cy="0" r="22"></circle>
+              </svg>
+            </div>
+          </div>
+        </label>
+      </div>
+    </label>
+  </div>
+  <div class="whiteboard">
+    <label>
+      <div class="text">塗鴉留言板</div>
+      <hr/>
+      <div class="paper">可以將今天的心情寫下，也可以在便條紙上寫上代辦事項。祝你有一個美妙的一週！</div>
+      <textarea id="emotion" name="emotion" cols="40" rows="6">述說今天的心情...</textarea>
+    </label>
+  </div>
+  <div class="end">
+    <h3>持續更新中...</h3>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js" integrity="sha512-2fk3Q4NXPYAqIha0glLZ2nluueK43aNoxvijPf53+DgL7UW9mkN+uXc1aEmnZdkkZVvtJZltpRt+JqTWc3TS3Q==" crossorigin=""></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/ScrollTrigger.min.js" integrity="sha512-jNJOCd1PIjJoUa1XTDKaPdBLNUe4OJTrltKG+70O5ghYZ943nTRGIzjObwC2JtSm1fG7T06GbUApR2eirIU/jA==" crossorigin=""></script>
+  <script type="text/JavaScript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" ></script>
+  <script src="./final.js"></script>
+</body>
+</html>
