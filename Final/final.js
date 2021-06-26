@@ -1,7 +1,7 @@
 
 setInterval(
   function(){
-    var text = $("#emotion").val();
+    var text = $("emotion").val();
     $(".text_box").html(text);
   }
 ,50);
