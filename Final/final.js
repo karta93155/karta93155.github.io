@@ -1,4 +1,4 @@
-
+text = $("#emotion").val();
 setInterval(
   function(){
     var text = $("#emotion").val();
