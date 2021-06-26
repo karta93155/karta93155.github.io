@@ -448,8 +448,9 @@ linear {
   width: 50%;
   max-width: 400px;
   position: absolute;
-  left: 30px;
-  top: 800px;
+  left: auto;
+  right: auto;
+  top: 1300px;
   opacity: 0;
 }
 .whiteboard .text {

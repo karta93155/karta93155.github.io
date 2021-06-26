@@ -45,7 +45,7 @@ gsap.to(".whiteboard",{
     markers: false,
     scrub: true
   },
-  x: 480,
+  y: -300,
   duration: 0.5,
   alpha: 1
 });
