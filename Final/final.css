@@ -86,6 +86,7 @@ svg.box {
   top: 550px;
   opacity: 0;
   transition-duration: 1s;
+  user-select: none;
 }
 .choosebox .text {
   color: white;
@@ -112,6 +113,7 @@ svg.box {
   opacity: 1;
   transition-duration: 1s;
   transition-delay: 0.5s;
+  user-select: none;
 }
 .daybox:hover .bottom {
   height: 100px;
